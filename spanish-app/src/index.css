@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans Hebrew", Arial, sans-serif;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-amber-50 text-slate-800 antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Spanish text is always shown left-to-right, even inside the RTL Hebrew UI. */
+.es {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
