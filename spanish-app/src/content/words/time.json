@@ -1,0 +1,202 @@
+[
+  {
+    "es": "hoy",
+    "he": "היום",
+    "example": {
+      "es": "Hoy hace calor.",
+      "he": "היום חם."
+    }
+  },
+  {
+    "es": "mañana",
+    "he": "מחר",
+    "example": {
+      "es": "Nos vemos mañana.",
+      "he": "נתראה מחר."
+    }
+  },
+  {
+    "es": "ayer",
+    "he": "אתמול",
+    "example": {
+      "es": "Ayer fui al cine.",
+      "he": "אתמול הלכתי לקולנוע."
+    }
+  },
+  {
+    "es": "ahora",
+    "he": "עכשיו",
+    "example": {
+      "es": "Ahora no puedo.",
+      "he": "עכשיו אני לא יכול."
+    }
+  },
+  {
+    "es": "día",
+    "he": "יום",
+    "gender": "m",
+    "example": {
+      "es": "¡Que tengas un buen día!",
+      "he": "שיהיה לך יום טוב!"
+    }
+  },
+  {
+    "es": "semana",
+    "he": "שבוע",
+    "gender": "f",
+    "example": {
+      "es": "Trabajo cinco días por semana.",
+      "he": "אני עובד חמישה ימים בשבוע."
+    }
+  },
+  {
+    "es": "mes",
+    "he": "חודש",
+    "gender": "m",
+    "example": {
+      "es": "El mes que viene viajo.",
+      "he": "בחודש הבא אני נוסע."
+    }
+  },
+  {
+    "es": "año",
+    "he": "שנה",
+    "gender": "m",
+    "example": {
+      "es": "¡Feliz año nuevo!",
+      "he": "שנה טובה!"
+    }
+  },
+  {
+    "es": "hora",
+    "he": "שעה",
+    "gender": "f",
+    "example": {
+      "es": "¿Qué hora es?",
+      "he": "מה השעה?"
+    }
+  },
+  {
+    "es": "minuto",
+    "he": "דקה",
+    "gender": "m",
+    "example": {
+      "es": "Esperá un minuto.",
+      "he": "חכה דקה."
+    }
+  },
+  {
+    "es": "lunes",
+    "he": "יום שני",
+    "gender": "m",
+    "example": {
+      "es": "El lunes empiezo a trabajar.",
+      "he": "ביום שני אני מתחיל לעבוד."
+    }
+  },
+  {
+    "es": "martes",
+    "he": "יום שלישי",
+    "gender": "m",
+    "example": {
+      "es": "Tengo clase el martes.",
+      "he": "יש לי שיעור ביום שלישי."
+    }
+  },
+  {
+    "es": "miércoles",
+    "he": "יום רביעי",
+    "gender": "m",
+    "example": {
+      "es": "El miércoles juega Boca.",
+      "he": "ביום רביעי בוקה משחקת."
+    }
+  },
+  {
+    "es": "jueves",
+    "he": "יום חמישי",
+    "gender": "m",
+    "example": {
+      "es": "Nos vemos el jueves.",
+      "he": "נתראה ביום חמישי."
+    }
+  },
+  {
+    "es": "viernes",
+    "he": "יום שישי",
+    "gender": "m",
+    "example": {
+      "es": "El viernes salimos a bailar.",
+      "he": "ביום שישי אנחנו יוצאים לרקוד."
+    }
+  },
+  {
+    "es": "sábado",
+    "he": "יום שבת",
+    "gender": "m",
+    "example": {
+      "es": "El sábado descanso.",
+      "he": "בשבת אני נח."
+    }
+  },
+  {
+    "es": "domingo",
+    "he": "יום ראשון",
+    "gender": "m",
+    "example": {
+      "es": "El domingo comemos asado.",
+      "he": "ביום ראשון אנחנו אוכלים אסאדו."
+    }
+  },
+  {
+    "es": "fin de semana",
+    "he": "סוף שבוע",
+    "gender": "m",
+    "example": {
+      "es": "¿Qué hacés el fin de semana?",
+      "he": "מה אתה עושה בסוף השבוע?"
+    }
+  },
+  {
+    "es": "tarde",
+    "he": "אחר הצהריים",
+    "gender": "f",
+    "example": {
+      "es": "Te llamo a la tarde.",
+      "he": "אני אתקשר אליך אחר הצהריים."
+    }
+  },
+  {
+    "es": "noche",
+    "he": "לילה / ערב",
+    "gender": "f",
+    "example": {
+      "es": "Salimos a la noche.",
+      "he": "אנחנו יוצאים בערב."
+    }
+  },
+  {
+    "es": "temprano",
+    "he": "מוקדם",
+    "example": {
+      "es": "Me levanto temprano.",
+      "he": "אני קם מוקדם."
+    }
+  },
+  {
+    "es": "siempre",
+    "he": "תמיד",
+    "example": {
+      "es": "Siempre tomo mate.",
+      "he": "אני תמיד שותה מאטה."
+    }
+  },
+  {
+    "es": "nunca",
+    "he": "אף פעם",
+    "example": {
+      "es": "Nunca llego tarde.",
+      "he": "אני אף פעם לא מאחר."
+    }
+  }
+]

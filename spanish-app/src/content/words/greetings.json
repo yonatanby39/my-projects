@@ -1,0 +1,170 @@
+[
+  {
+    "es": "hola",
+    "he": "שלום",
+    "example": {
+      "es": "¡Hola! ¿Cómo andás?",
+      "he": "שלום! מה נשמע?"
+    }
+  },
+  {
+    "es": "chau",
+    "he": "ביי",
+    "example": {
+      "es": "Chau, nos vemos mañana.",
+      "he": "ביי, נתראה מחר."
+    }
+  },
+  {
+    "es": "buen día",
+    "he": "בוקר טוב",
+    "example": {
+      "es": "Buen día, ¿todo bien?",
+      "he": "בוקר טוב, הכול טוב?"
+    }
+  },
+  {
+    "es": "buenas tardes",
+    "he": "אחר צהריים טובים",
+    "example": {
+      "es": "Buenas tardes, señora.",
+      "he": "אחר צהריים טובים, גברתי."
+    }
+  },
+  {
+    "es": "buenas noches",
+    "he": "ערב טוב / לילה טוב",
+    "example": {
+      "es": "Buenas noches, hasta mañana.",
+      "he": "לילה טוב, עד מחר."
+    }
+  },
+  {
+    "es": "gracias",
+    "he": "תודה",
+    "example": {
+      "es": "Muchas gracias por todo.",
+      "he": "תודה רבה על הכול."
+    }
+  },
+  {
+    "es": "de nada",
+    "he": "אין בעד מה",
+    "example": {
+      "es": "—Gracias. —De nada.",
+      "he": "—תודה. —אין בעד מה."
+    }
+  },
+  {
+    "es": "por favor",
+    "he": "בבקשה",
+    "example": {
+      "es": "Un café, por favor.",
+      "he": "קפה אחד, בבקשה."
+    }
+  },
+  {
+    "es": "perdón",
+    "he": "סליחה",
+    "example": {
+      "es": "Perdón, llegué tarde.",
+      "he": "סליחה, איחרתי."
+    }
+  },
+  {
+    "es": "disculpá",
+    "he": "סליחה (כשפונים למישהו)",
+    "example": {
+      "es": "Disculpá, ¿qué hora es?",
+      "he": "סליחה, מה השעה?"
+    }
+  },
+  {
+    "es": "sí",
+    "he": "כן",
+    "example": {
+      "es": "Sí, claro.",
+      "he": "כן, בטח."
+    }
+  },
+  {
+    "es": "no",
+    "he": "לא",
+    "example": {
+      "es": "No, gracias.",
+      "he": "לא, תודה."
+    }
+  },
+  {
+    "es": "¿cómo andás?",
+    "he": "מה נשמע?",
+    "example": {
+      "es": "Hola, Juan, ¿cómo andás?",
+      "he": "היי חואן, מה נשמע?"
+    }
+  },
+  {
+    "es": "bien",
+    "he": "טוב / בסדר",
+    "example": {
+      "es": "Estoy bien, ¿y vos?",
+      "he": "אני בסדר, ואתה?"
+    }
+  },
+  {
+    "es": "mal",
+    "he": "רע / לא טוב",
+    "example": {
+      "es": "Hoy me siento mal.",
+      "he": "היום אני מרגיש לא טוב."
+    }
+  },
+  {
+    "es": "mucho gusto",
+    "he": "נעים מאוד",
+    "example": {
+      "es": "Mucho gusto, soy Ana.",
+      "he": "נעים מאוד, אני אנה."
+    }
+  },
+  {
+    "es": "hasta luego",
+    "he": "להתראות",
+    "example": {
+      "es": "Hasta luego, ¡que te vaya bien!",
+      "he": "להתראות, שיהיה לך בהצלחה!"
+    }
+  },
+  {
+    "es": "nos vemos",
+    "he": "נתראה",
+    "example": {
+      "es": "Nos vemos el lunes.",
+      "he": "נתראה ביום שני."
+    }
+  },
+  {
+    "es": "bienvenido",
+    "he": "ברוך הבא",
+    "example": {
+      "es": "Bienvenido a Buenos Aires.",
+      "he": "ברוך הבא לבואנוס איירס."
+    }
+  },
+  {
+    "es": "che",
+    "he": "היי / אחי (פנייה ארגנטינאית)",
+    "example": {
+      "es": "Che, ¿vamos a tomar algo?",
+      "he": "אחי, הולכים לשתות משהו?"
+    }
+  },
+  {
+    "es": "dale",
+    "he": "יאללה / סגור",
+    "example": {
+      "es": "—¿Vamos? —¡Dale!",
+      "he": "—הולכים? —יאללה!"
+    }
+  }
+]

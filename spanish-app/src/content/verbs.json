@@ -1,0 +1,391 @@
+{
+  "persons": [
+    {
+      "key": "yo",
+      "es": "yo",
+      "he": "אני"
+    },
+    {
+      "key": "vos",
+      "es": "vos",
+      "he": "אתה / את"
+    },
+    {
+      "key": "el",
+      "es": "él / ella / usted",
+      "he": "הוא / היא / אתה (רשמי)"
+    },
+    {
+      "key": "nosotros",
+      "es": "nosotros",
+      "he": "אנחנו"
+    },
+    {
+      "key": "ellos",
+      "es": "ellos / ellas / ustedes",
+      "he": "הם / הן / אתם"
+    }
+  ],
+  "verbs": [
+    {
+      "infinitive": "ser",
+      "he": "להיות (מהות, זהות)",
+      "type": "irregular",
+      "present": {
+        "yo": "soy",
+        "vos": "sos",
+        "el": "es",
+        "nosotros": "somos",
+        "ellos": "son"
+      }
+    },
+    {
+      "infinitive": "estar",
+      "he": "להיות (מצב, מקום)",
+      "type": "irregular",
+      "present": {
+        "yo": "estoy",
+        "vos": "estás",
+        "el": "está",
+        "nosotros": "estamos",
+        "ellos": "están"
+      }
+    },
+    {
+      "infinitive": "tener",
+      "he": "שיש ל... (יש לי)",
+      "type": "irregular",
+      "present": {
+        "yo": "tengo",
+        "vos": "tenés",
+        "el": "tiene",
+        "nosotros": "tenemos",
+        "ellos": "tienen"
+      }
+    },
+    {
+      "infinitive": "ir",
+      "he": "ללכת / לנסוע",
+      "type": "irregular",
+      "present": {
+        "yo": "voy",
+        "vos": "vas",
+        "el": "va",
+        "nosotros": "vamos",
+        "ellos": "van"
+      }
+    },
+    {
+      "infinitive": "hacer",
+      "he": "לעשות",
+      "type": "irregular",
+      "present": {
+        "yo": "hago",
+        "vos": "hacés",
+        "el": "hace",
+        "nosotros": "hacemos",
+        "ellos": "hacen"
+      }
+    },
+    {
+      "infinitive": "querer",
+      "he": "לרצות",
+      "type": "stem",
+      "present": {
+        "yo": "quiero",
+        "vos": "querés",
+        "el": "quiere",
+        "nosotros": "queremos",
+        "ellos": "quieren"
+      }
+    },
+    {
+      "infinitive": "poder",
+      "he": "יכול (להיות מסוגל)",
+      "type": "stem",
+      "present": {
+        "yo": "puedo",
+        "vos": "podés",
+        "el": "puede",
+        "nosotros": "podemos",
+        "ellos": "pueden"
+      }
+    },
+    {
+      "infinitive": "decir",
+      "he": "לומר",
+      "type": "irregular",
+      "present": {
+        "yo": "digo",
+        "vos": "decís",
+        "el": "dice",
+        "nosotros": "decimos",
+        "ellos": "dicen"
+      }
+    },
+    {
+      "infinitive": "venir",
+      "he": "לבוא",
+      "type": "irregular",
+      "present": {
+        "yo": "vengo",
+        "vos": "venís",
+        "el": "viene",
+        "nosotros": "venimos",
+        "ellos": "vienen"
+      }
+    },
+    {
+      "infinitive": "hablar",
+      "he": "לדבר",
+      "type": "regular",
+      "present": {
+        "yo": "hablo",
+        "vos": "hablás",
+        "el": "habla",
+        "nosotros": "hablamos",
+        "ellos": "hablan"
+      }
+    },
+    {
+      "infinitive": "comer",
+      "he": "לאכול",
+      "type": "regular",
+      "present": {
+        "yo": "como",
+        "vos": "comés",
+        "el": "come",
+        "nosotros": "comemos",
+        "ellos": "comen"
+      }
+    },
+    {
+      "infinitive": "vivir",
+      "he": "לגור / לחיות",
+      "type": "regular",
+      "present": {
+        "yo": "vivo",
+        "vos": "vivís",
+        "el": "vive",
+        "nosotros": "vivimos",
+        "ellos": "viven"
+      }
+    },
+    {
+      "infinitive": "trabajar",
+      "he": "לעבוד",
+      "type": "regular",
+      "present": {
+        "yo": "trabajo",
+        "vos": "trabajás",
+        "el": "trabaja",
+        "nosotros": "trabajamos",
+        "ellos": "trabajan"
+      }
+    },
+    {
+      "infinitive": "tomar",
+      "he": "לשתות / לקחת",
+      "type": "regular",
+      "present": {
+        "yo": "tomo",
+        "vos": "tomás",
+        "el": "toma",
+        "nosotros": "tomamos",
+        "ellos": "toman"
+      }
+    },
+    {
+      "infinitive": "saber",
+      "he": "לדעת",
+      "type": "irregular",
+      "present": {
+        "yo": "sé",
+        "vos": "sabés",
+        "el": "sabe",
+        "nosotros": "sabemos",
+        "ellos": "saben"
+      }
+    },
+    {
+      "infinitive": "conocer",
+      "he": "להכיר",
+      "type": "irregular",
+      "present": {
+        "yo": "conozco",
+        "vos": "conocés",
+        "el": "conoce",
+        "nosotros": "conocemos",
+        "ellos": "conocen"
+      }
+    },
+    {
+      "infinitive": "ver",
+      "he": "לראות",
+      "type": "irregular",
+      "present": {
+        "yo": "veo",
+        "vos": "ves",
+        "el": "ve",
+        "nosotros": "vemos",
+        "ellos": "ven"
+      }
+    },
+    {
+      "infinitive": "dar",
+      "he": "לתת",
+      "type": "irregular",
+      "present": {
+        "yo": "doy",
+        "vos": "das",
+        "el": "da",
+        "nosotros": "damos",
+        "ellos": "dan"
+      }
+    },
+    {
+      "infinitive": "salir",
+      "he": "לצאת",
+      "type": "irregular",
+      "present": {
+        "yo": "salgo",
+        "vos": "salís",
+        "el": "sale",
+        "nosotros": "salimos",
+        "ellos": "salen"
+      }
+    },
+    {
+      "infinitive": "poner",
+      "he": "לשים",
+      "type": "irregular",
+      "present": {
+        "yo": "pongo",
+        "vos": "ponés",
+        "el": "pone",
+        "nosotros": "ponemos",
+        "ellos": "ponen"
+      }
+    },
+    {
+      "infinitive": "pensar",
+      "he": "לחשוב",
+      "type": "stem",
+      "present": {
+        "yo": "pienso",
+        "vos": "pensás",
+        "el": "piensa",
+        "nosotros": "pensamos",
+        "ellos": "piensan"
+      }
+    },
+    {
+      "infinitive": "entender",
+      "he": "להבין",
+      "type": "stem",
+      "present": {
+        "yo": "entiendo",
+        "vos": "entendés",
+        "el": "entiende",
+        "nosotros": "entendemos",
+        "ellos": "entienden"
+      }
+    },
+    {
+      "infinitive": "volver",
+      "he": "לחזור",
+      "type": "stem",
+      "present": {
+        "yo": "vuelvo",
+        "vos": "volvés",
+        "el": "vuelve",
+        "nosotros": "volvemos",
+        "ellos": "vuelven"
+      }
+    },
+    {
+      "infinitive": "dormir",
+      "he": "לישון",
+      "type": "stem",
+      "present": {
+        "yo": "duermo",
+        "vos": "dormís",
+        "el": "duerme",
+        "nosotros": "dormimos",
+        "ellos": "duermen"
+      }
+    },
+    {
+      "infinitive": "pedir",
+      "he": "לבקש / להזמין",
+      "type": "stem",
+      "present": {
+        "yo": "pido",
+        "vos": "pedís",
+        "el": "pide",
+        "nosotros": "pedimos",
+        "ellos": "piden"
+      }
+    },
+    {
+      "infinitive": "jugar",
+      "he": "לשחק",
+      "type": "stem",
+      "present": {
+        "yo": "juego",
+        "vos": "jugás",
+        "el": "juega",
+        "nosotros": "jugamos",
+        "ellos": "juegan"
+      }
+    },
+    {
+      "infinitive": "necesitar",
+      "he": "להצטרך",
+      "type": "regular",
+      "present": {
+        "yo": "necesito",
+        "vos": "necesitás",
+        "el": "necesita",
+        "nosotros": "necesitamos",
+        "ellos": "necesitan"
+      }
+    },
+    {
+      "infinitive": "llegar",
+      "he": "להגיע",
+      "type": "regular",
+      "present": {
+        "yo": "llego",
+        "vos": "llegás",
+        "el": "llega",
+        "nosotros": "llegamos",
+        "ellos": "llegan"
+      }
+    },
+    {
+      "infinitive": "comprar",
+      "he": "לקנות",
+      "type": "regular",
+      "present": {
+        "yo": "compro",
+        "vos": "comprás",
+        "el": "compra",
+        "nosotros": "compramos",
+        "ellos": "compran"
+      }
+    },
+    {
+      "infinitive": "escribir",
+      "he": "לכתוב",
+      "type": "regular",
+      "present": {
+        "yo": "escribo",
+        "vos": "escribís",
+        "el": "escribe",
+        "nosotros": "escribimos",
+        "ellos": "escriben"
+      }
+    }
+  ]
+}

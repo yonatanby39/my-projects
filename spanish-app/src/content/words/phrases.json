@@ -1,0 +1,130 @@
+[
+  {
+    "es": "¿cómo te llamás?",
+    "he": "איך קוראים לך?",
+    "example": {
+      "es": "Hola, ¿cómo te llamás?",
+      "he": "היי, איך קוראים לך?"
+    }
+  },
+  {
+    "es": "me llamo",
+    "he": "קוראים לי",
+    "example": {
+      "es": "Me llamo Ana.",
+      "he": "קוראים לי אנה."
+    }
+  },
+  {
+    "es": "¿de dónde sos?",
+    "he": "מאיפה אתה?",
+    "example": {
+      "es": "—¿De dónde sos? —Soy de Israel.",
+      "he": "—מאיפה אתה? —אני מישראל."
+    }
+  },
+  {
+    "es": "no entiendo",
+    "he": "אני לא מבין",
+    "example": {
+      "es": "Perdón, no entiendo.",
+      "he": "סליחה, אני לא מבין."
+    }
+  },
+  {
+    "es": "más despacio",
+    "he": "יותר לאט",
+    "example": {
+      "es": "Más despacio, por favor.",
+      "he": "יותר לאט, בבקשה."
+    }
+  },
+  {
+    "es": "¿qué significa?",
+    "he": "מה זה אומר?",
+    "example": {
+      "es": "¿Qué significa esta palabra?",
+      "he": "מה המילה הזאת אומרת?"
+    }
+  },
+  {
+    "es": "¿dónde está?",
+    "he": "איפה זה?",
+    "example": {
+      "es": "¿Dónde está la estación?",
+      "he": "איפה התחנה?"
+    }
+  },
+  {
+    "es": "¿cuánto cuesta?",
+    "he": "כמה זה עולה?",
+    "example": {
+      "es": "¿Cuánto cuesta esta remera?",
+      "he": "כמה עולה החולצה הזאת?"
+    }
+  },
+  {
+    "es": "quiero",
+    "he": "אני רוצה",
+    "example": {
+      "es": "Quiero un café.",
+      "he": "אני רוצה קפה."
+    }
+  },
+  {
+    "es": "está bien",
+    "he": "בסדר",
+    "example": {
+      "es": "Está bien, no te preocupes.",
+      "he": "בסדר, אל תדאג."
+    }
+  },
+  {
+    "es": "no hay problema",
+    "he": "אין בעיה",
+    "example": {
+      "es": "—Perdón. —No hay problema.",
+      "he": "—סליחה. —אין בעיה."
+    }
+  },
+  {
+    "es": "¡qué bueno!",
+    "he": "איזה יופי!",
+    "example": {
+      "es": "¿Viene tu hermana? ¡Qué bueno!",
+      "he": "אחותך באה? איזה יופי!"
+    }
+  },
+  {
+    "es": "claro",
+    "he": "בטח / ברור",
+    "example": {
+      "es": "—¿Me esperás? —¡Claro!",
+      "he": "—תחכה לי? —בטח!"
+    }
+  },
+  {
+    "es": "no sé",
+    "he": "אני לא יודע",
+    "example": {
+      "es": "No sé dónde está.",
+      "he": "אני לא יודע איפה זה."
+    }
+  },
+  {
+    "es": "¿me ayudás?",
+    "he": "תעזור לי?",
+    "example": {
+      "es": "¿Me ayudás con esto?",
+      "he": "תעזור לי עם זה?"
+    }
+  },
+  {
+    "es": "todo bien",
+    "he": "הכול טוב",
+    "example": {
+      "es": "Todo bien, gracias.",
+      "he": "הכול טוב, תודה."
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "greetings",
+    "he": "ברכות ונימוסים",
+    "es": "Saludos",
+    "order": 1
+  },
+  {
+    "id": "family",
+    "he": "משפחה ואנשים",
+    "es": "Familia y gente",
+    "order": 2
+  },
+  {
+    "id": "food",
+    "he": "אוכל ושתייה",
+    "es": "Comida y bebida",
+    "order": 3
+  },
+  {
+    "id": "numbers",
+    "he": "מספרים וכמויות",
+    "es": "Números",
+    "order": 4
+  },
+  {
+    "id": "time",
+    "he": "זמן וימים",
+    "es": "Tiempo y días",
+    "order": 5
+  },
+  {
+    "id": "transport",
+    "he": "תחבורה והתמצאות",
+    "es": "Transporte",
+    "order": 6
+  },
+  {
+    "id": "places",
+    "he": "מקומות בעיר",
+    "es": "Lugares",
+    "order": 7
+  },
+  {
+    "id": "home",
+    "he": "בבית",
+    "es": "En casa",
+    "order": 8
+  },
+  {
+    "id": "describing",
+    "he": "תיאורים ותחושות",
+    "es": "Descripciones",
+    "order": 9
+  },
+  {
+    "id": "phrases",
+    "he": "משפטים שימושיים",
+    "es": "Frases útiles",
+    "order": 10
+  }
+]

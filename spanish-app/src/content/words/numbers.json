@@ -1,0 +1,212 @@
+[
+  {
+    "es": "uno",
+    "he": "אחד (1)",
+    "example": {
+      "es": "Quiero uno, por favor.",
+      "he": "אני רוצה אחד, בבקשה."
+    }
+  },
+  {
+    "es": "dos",
+    "he": "שתיים (2)",
+    "example": {
+      "es": "Dos cafés, por favor.",
+      "he": "שני קפה, בבקשה."
+    }
+  },
+  {
+    "es": "tres",
+    "he": "שלוש (3)",
+    "example": {
+      "es": "Son las tres.",
+      "he": "השעה שלוש."
+    }
+  },
+  {
+    "es": "cuatro",
+    "he": "ארבע (4)",
+    "example": {
+      "es": "Somos cuatro.",
+      "he": "אנחנו ארבעה."
+    }
+  },
+  {
+    "es": "cinco",
+    "he": "חמש (5)",
+    "example": {
+      "es": "Cinco minutos, nada más.",
+      "he": "חמש דקות, לא יותר."
+    }
+  },
+  {
+    "es": "seis",
+    "he": "שש (6)",
+    "example": {
+      "es": "El colectivo pasa a las seis.",
+      "he": "האוטובוס עובר בשש."
+    }
+  },
+  {
+    "es": "siete",
+    "he": "שבע (7)",
+    "example": {
+      "es": "La semana tiene siete días.",
+      "he": "בשבוע יש שבעה ימים."
+    }
+  },
+  {
+    "es": "ocho",
+    "he": "שמונה (8)",
+    "example": {
+      "es": "Trabajo ocho horas por día.",
+      "he": "אני עובד שמונה שעות ביום."
+    }
+  },
+  {
+    "es": "nueve",
+    "he": "תשע (9)",
+    "example": {
+      "es": "Mi sobrino tiene nueve años.",
+      "he": "האחיין שלי בן תשע."
+    }
+  },
+  {
+    "es": "diez",
+    "he": "עשר (10)",
+    "example": {
+      "es": "Llego a las diez.",
+      "he": "אני מגיע בעשר."
+    }
+  },
+  {
+    "es": "once",
+    "he": "אחת-עשרה (11)",
+    "example": {
+      "es": "Vivo en el piso once.",
+      "he": "אני גר בקומה האחת-עשרה."
+    }
+  },
+  {
+    "es": "doce",
+    "he": "שתים-עשרה (12)",
+    "example": {
+      "es": "Son las doce del mediodía.",
+      "he": "השעה שתים-עשרה בצהריים."
+    }
+  },
+  {
+    "es": "quince",
+    "he": "חמש-עשרה (15)",
+    "example": {
+      "es": "Llego en quince minutos.",
+      "he": "אני מגיע בעוד חמש-עשרה דקות."
+    }
+  },
+  {
+    "es": "veinte",
+    "he": "עשרים (20)",
+    "example": {
+      "es": "Tengo veinte años.",
+      "he": "אני בן עשרים."
+    }
+  },
+  {
+    "es": "treinta",
+    "he": "שלושים (30)",
+    "example": {
+      "es": "El mes tiene treinta días.",
+      "he": "בחודש יש שלושים ימים."
+    }
+  },
+  {
+    "es": "cuarenta",
+    "he": "ארבעים (40)",
+    "example": {
+      "es": "Hay cuarenta personas.",
+      "he": "יש ארבעים אנשים."
+    }
+  },
+  {
+    "es": "cincuenta",
+    "he": "חמישים (50)",
+    "example": {
+      "es": "Cincuenta por ciento.",
+      "he": "חמישים אחוז."
+    }
+  },
+  {
+    "es": "cien",
+    "he": "מאה (100)",
+    "example": {
+      "es": "Cien gramos de queso.",
+      "he": "מאה גרם גבינה."
+    }
+  },
+  {
+    "es": "mil",
+    "he": "אלף (1000)",
+    "example": {
+      "es": "Cuesta mil pesos.",
+      "he": "זה עולה אלף פסו."
+    }
+  },
+  {
+    "es": "número",
+    "he": "מספר",
+    "gender": "m",
+    "example": {
+      "es": "¿Cuál es tu número de teléfono?",
+      "he": "מה מספר הטלפון שלך?"
+    }
+  },
+  {
+    "es": "primero",
+    "he": "ראשון",
+    "example": {
+      "es": "Vos primero.",
+      "he": "אתה ראשון."
+    }
+  },
+  {
+    "es": "último",
+    "he": "אחרון",
+    "example": {
+      "es": "Es el último colectivo.",
+      "he": "זה האוטובוס האחרון."
+    }
+  },
+  {
+    "es": "mitad",
+    "he": "חצי",
+    "gender": "f",
+    "example": {
+      "es": "La mitad de la pizza.",
+      "he": "חצי מהפיצה."
+    }
+  },
+  {
+    "es": "¿cuánto?",
+    "he": "כמה?",
+    "example": {
+      "es": "¿Cuánto tiempo tenés?",
+      "he": "כמה זמן יש לך?"
+    }
+  },
+  {
+    "es": "mucho",
+    "he": "הרבה",
+    "example": {
+      "es": "Tengo mucho trabajo.",
+      "he": "יש לי הרבה עבודה."
+    }
+  },
+  {
+    "es": "poco",
+    "he": "מעט / קצת",
+    "example": {
+      "es": "Hablo un poco de español.",
+      "he": "אני מדבר קצת ספרדית."
+    }
+  }
+]

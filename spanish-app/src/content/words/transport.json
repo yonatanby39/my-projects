@@ -1,0 +1,188 @@
+[
+  {
+    "es": "colectivo",
+    "he": "אוטובוס",
+    "gender": "m",
+    "example": {
+      "es": "Tomo el colectivo 60.",
+      "he": "אני נוסע בקו 60."
+    }
+  },
+  {
+    "es": "subte",
+    "he": "רכבת תחתית",
+    "gender": "m",
+    "example": {
+      "es": "El subte está lleno.",
+      "he": "הרכבת התחתית מלאה."
+    }
+  },
+  {
+    "es": "tren",
+    "he": "רכבת",
+    "gender": "m",
+    "example": {
+      "es": "El tren sale a las nueve.",
+      "he": "הרכבת יוצאת בתשע."
+    }
+  },
+  {
+    "es": "auto",
+    "he": "מכונית",
+    "gender": "m",
+    "example": {
+      "es": "Tengo un auto nuevo.",
+      "he": "יש לי מכונית חדשה."
+    }
+  },
+  {
+    "es": "taxi",
+    "he": "מונית",
+    "gender": "m",
+    "example": {
+      "es": "Vamos en taxi.",
+      "he": "ניסע במונית."
+    }
+  },
+  {
+    "es": "avión",
+    "he": "מטוס",
+    "gender": "m",
+    "example": {
+      "es": "El avión llega tarde.",
+      "he": "המטוס מאחר."
+    }
+  },
+  {
+    "es": "bicicleta",
+    "he": "אופניים",
+    "gender": "f",
+    "example": {
+      "es": "Voy al trabajo en bicicleta.",
+      "he": "אני נוסע לעבודה באופניים."
+    }
+  },
+  {
+    "es": "parada",
+    "he": "תחנה (אוטובוס)",
+    "gender": "f",
+    "example": {
+      "es": "¿Dónde está la parada del colectivo?",
+      "he": "איפה תחנת האוטובוס?"
+    }
+  },
+  {
+    "es": "estación",
+    "he": "תחנה (רכבת)",
+    "gender": "f",
+    "example": {
+      "es": "La estación está cerca.",
+      "he": "התחנה קרובה."
+    }
+  },
+  {
+    "es": "aeropuerto",
+    "he": "שדה תעופה",
+    "gender": "m",
+    "example": {
+      "es": "Vamos al aeropuerto.",
+      "he": "אנחנו נוסעים לשדה התעופה."
+    }
+  },
+  {
+    "es": "boleto",
+    "he": "כרטיס נסיעה",
+    "gender": "m",
+    "example": {
+      "es": "Un boleto, por favor.",
+      "he": "כרטיס אחד, בבקשה."
+    }
+  },
+  {
+    "es": "calle",
+    "he": "רחוב",
+    "gender": "f",
+    "example": {
+      "es": "Vivo en esta calle.",
+      "he": "אני גר ברחוב הזה."
+    }
+  },
+  {
+    "es": "esquina",
+    "he": "פינה",
+    "gender": "f",
+    "example": {
+      "es": "Te espero en la esquina.",
+      "he": "אני מחכה לך בפינה."
+    }
+  },
+  {
+    "es": "cuadra",
+    "he": "בלוק (רחוב)",
+    "gender": "f",
+    "example": {
+      "es": "Está a dos cuadras.",
+      "he": "זה במרחק שני בלוקים."
+    }
+  },
+  {
+    "es": "izquierda",
+    "he": "שמאל",
+    "gender": "f",
+    "example": {
+      "es": "Doblá a la izquierda.",
+      "he": "פנה שמאלה."
+    }
+  },
+  {
+    "es": "derecha",
+    "he": "ימין",
+    "gender": "f",
+    "example": {
+      "es": "La farmacia está a la derecha.",
+      "he": "בית המרקחת מימין."
+    }
+  },
+  {
+    "es": "derecho",
+    "he": "ישר",
+    "example": {
+      "es": "Seguí derecho.",
+      "he": "תמשיך ישר."
+    }
+  },
+  {
+    "es": "cerca",
+    "he": "קרוב",
+    "example": {
+      "es": "El hotel está cerca.",
+      "he": "המלון קרוב."
+    }
+  },
+  {
+    "es": "lejos",
+    "he": "רחוק",
+    "example": {
+      "es": "Mi casa está lejos.",
+      "he": "הבית שלי רחוק."
+    }
+  },
+  {
+    "es": "mapa",
+    "he": "מפה",
+    "gender": "m",
+    "example": {
+      "es": "¿Tenés un mapa?",
+      "he": "יש לך מפה?"
+    }
+  },
+  {
+    "es": "viaje",
+    "he": "נסיעה / טיול",
+    "gender": "m",
+    "example": {
+      "es": "¡Buen viaje!",
+      "he": "נסיעה טובה!"
+    }
+  }
+]

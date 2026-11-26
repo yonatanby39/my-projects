@@ -1,0 +1,191 @@
+[
+  {
+    "es": "casa",
+    "he": "בית",
+    "gender": "f",
+    "example": {
+      "es": "Estoy en casa.",
+      "he": "אני בבית."
+    }
+  },
+  {
+    "es": "departamento",
+    "he": "דירה",
+    "gender": "m",
+    "example": {
+      "es": "Alquilo un departamento chico.",
+      "he": "אני שוכר דירה קטנה."
+    }
+  },
+  {
+    "es": "cocina",
+    "he": "מטבח",
+    "gender": "f",
+    "example": {
+      "es": "La cocina es grande.",
+      "he": "המטבח גדול."
+    }
+  },
+  {
+    "es": "habitación",
+    "he": "חדר",
+    "gender": "f",
+    "example": {
+      "es": "Mi habitación tiene una ventana.",
+      "he": "בחדר שלי יש חלון."
+    }
+  },
+  {
+    "es": "cama",
+    "he": "מיטה",
+    "gender": "f",
+    "example": {
+      "es": "Me voy a la cama.",
+      "he": "אני הולך לישון."
+    }
+  },
+  {
+    "es": "mesa",
+    "he": "שולחן",
+    "gender": "f",
+    "example": {
+      "es": "La comida está en la mesa.",
+      "he": "האוכל על השולחן."
+    }
+  },
+  {
+    "es": "silla",
+    "he": "כיסא",
+    "gender": "f",
+    "example": {
+      "es": "Sentate en esta silla.",
+      "he": "שב על הכיסא הזה."
+    }
+  },
+  {
+    "es": "puerta",
+    "he": "דלת",
+    "gender": "f",
+    "example": {
+      "es": "Cerrá la puerta, por favor.",
+      "he": "סגור את הדלת, בבקשה."
+    }
+  },
+  {
+    "es": "ventana",
+    "he": "חלון",
+    "gender": "f",
+    "example": {
+      "es": "Abrí la ventana.",
+      "he": "פתח את החלון."
+    }
+  },
+  {
+    "es": "heladera",
+    "he": "מקרר",
+    "gender": "f",
+    "example": {
+      "es": "La cerveza está en la heladera.",
+      "he": "הבירה במקרר."
+    }
+  },
+  {
+    "es": "llave",
+    "he": "מפתח",
+    "gender": "f",
+    "example": {
+      "es": "No encuentro la llave.",
+      "he": "אני לא מוצא את המפתח."
+    }
+  },
+  {
+    "es": "celular",
+    "he": "טלפון נייד",
+    "gender": "m",
+    "example": {
+      "es": "Se me quedó sin batería el celular.",
+      "he": "נגמרה לי הסוללה בטלפון."
+    }
+  },
+  {
+    "es": "computadora",
+    "he": "מחשב",
+    "gender": "f",
+    "example": {
+      "es": "Trabajo con la computadora.",
+      "he": "אני עובד עם המחשב."
+    }
+  },
+  {
+    "es": "tele",
+    "he": "טלוויזיה",
+    "gender": "f",
+    "example": {
+      "es": "Miramos la tele a la noche.",
+      "he": "אנחנו רואים טלוויזיה בערב."
+    }
+  },
+  {
+    "es": "ropa",
+    "he": "בגדים",
+    "gender": "f",
+    "example": {
+      "es": "Lavo la ropa los domingos.",
+      "he": "אני מכבס את הבגדים בימי ראשון."
+    }
+  },
+  {
+    "es": "libro",
+    "he": "ספר",
+    "gender": "m",
+    "example": {
+      "es": "Estoy leyendo un libro.",
+      "he": "אני קורא ספר."
+    }
+  },
+  {
+    "es": "perro",
+    "he": "כלב",
+    "gender": "m",
+    "example": {
+      "es": "Mi perro se llama Toto.",
+      "he": "לכלב שלי קוראים טוטו."
+    }
+  },
+  {
+    "es": "gato",
+    "he": "חתול",
+    "gender": "m",
+    "example": {
+      "es": "El gato duerme todo el día.",
+      "he": "החתול ישן כל היום."
+    }
+  },
+  {
+    "es": "vaso",
+    "he": "כוס",
+    "gender": "m",
+    "example": {
+      "es": "Pasame un vaso.",
+      "he": "תעביר לי כוס."
+    }
+  },
+  {
+    "es": "plata",
+    "he": "כסף (דיבורי)",
+    "gender": "f",
+    "example": {
+      "es": "No tengo plata.",
+      "he": "אין לי כסף."
+    }
+  },
+  {
+    "es": "ducha",
+    "he": "מקלחת",
+    "gender": "f",
+    "example": {
+      "es": "Me doy una ducha.",
+      "he": "אני מתקלח."
+    }
+  }
+]

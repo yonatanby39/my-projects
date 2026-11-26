@@ -1,0 +1,178 @@
+[
+  {
+    "es": "grande",
+    "he": "גדול",
+    "example": {
+      "es": "Es una casa grande.",
+      "he": "זה בית גדול."
+    }
+  },
+  {
+    "es": "chico",
+    "he": "קטן",
+    "example": {
+      "es": "Mi departamento es chico.",
+      "he": "הדירה שלי קטנה."
+    }
+  },
+  {
+    "es": "nuevo",
+    "he": "חדש",
+    "example": {
+      "es": "Tengo un celular nuevo.",
+      "he": "יש לי טלפון חדש."
+    }
+  },
+  {
+    "es": "viejo",
+    "he": "ישן / זקן",
+    "example": {
+      "es": "Es un auto viejo.",
+      "he": "זו מכונית ישנה."
+    }
+  },
+  {
+    "es": "lindo",
+    "he": "יפה / חמוד",
+    "example": {
+      "es": "¡Qué lindo día!",
+      "he": "איזה יום יפה!"
+    }
+  },
+  {
+    "es": "feo",
+    "he": "מכוער / לא נעים",
+    "example": {
+      "es": "Hoy el día está feo.",
+      "he": "היום מזג האוויר לא נעים."
+    }
+  },
+  {
+    "es": "bueno",
+    "he": "טוב",
+    "example": {
+      "es": "La pizza está buena.",
+      "he": "הפיצה טובה."
+    }
+  },
+  {
+    "es": "malo",
+    "he": "רע",
+    "example": {
+      "es": "Es una mala idea.",
+      "he": "זה רעיון רע."
+    }
+  },
+  {
+    "es": "caro",
+    "he": "יקר",
+    "example": {
+      "es": "Este restaurante es caro.",
+      "he": "המסעדה הזאת יקרה."
+    }
+  },
+  {
+    "es": "barato",
+    "he": "זול",
+    "example": {
+      "es": "El colectivo es barato.",
+      "he": "האוטובוס זול."
+    }
+  },
+  {
+    "es": "caliente",
+    "he": "חם (לא קר)",
+    "example": {
+      "es": "El café está caliente.",
+      "he": "הקפה חם."
+    }
+  },
+  {
+    "es": "frío",
+    "he": "קר",
+    "example": {
+      "es": "El agua está fría.",
+      "he": "המים קרים."
+    }
+  },
+  {
+    "es": "rico",
+    "he": "טעים",
+    "example": {
+      "es": "¡Qué rico este asado!",
+      "he": "איזה טעים האסאדו הזה!"
+    }
+  },
+  {
+    "es": "fácil",
+    "he": "קל",
+    "example": {
+      "es": "Es muy fácil.",
+      "he": "זה מאוד קל."
+    }
+  },
+  {
+    "es": "difícil",
+    "he": "קשה",
+    "example": {
+      "es": "Esta palabra es difícil.",
+      "he": "המילה הזאת קשה."
+    }
+  },
+  {
+    "es": "cansado",
+    "he": "עייף",
+    "example": {
+      "es": "Estoy muy cansado.",
+      "he": "אני מאוד עייף."
+    }
+  },
+  {
+    "es": "contento",
+    "he": "שמח / מרוצה",
+    "example": {
+      "es": "Estoy contento con mi trabajo.",
+      "he": "אני מרוצה מהעבודה שלי."
+    }
+  },
+  {
+    "es": "triste",
+    "he": "עצוב",
+    "example": {
+      "es": "¿Por qué estás triste?",
+      "he": "למה אתה עצוב?"
+    }
+  },
+  {
+    "es": "alto",
+    "he": "גבוה",
+    "example": {
+      "es": "Mi hermano es muy alto.",
+      "he": "אחי מאוד גבוה."
+    }
+  },
+  {
+    "es": "simpático",
+    "he": "נחמד",
+    "example": {
+      "es": "Tu amiga es muy simpática.",
+      "he": "החברה שלך מאוד נחמדה."
+    }
+  },
+  {
+    "es": "abierto",
+    "he": "פתוח",
+    "example": {
+      "es": "El kiosco está abierto.",
+      "he": "הקיוסק פתוח."
+    }
+  },
+  {
+    "es": "cerrado",
+    "he": "סגור",
+    "example": {
+      "es": "El banco está cerrado.",
+      "he": "הבנק סגור."
+    }
+  }
+]

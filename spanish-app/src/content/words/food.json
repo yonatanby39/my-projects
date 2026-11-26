@@ -1,0 +1,255 @@
+[
+  {
+    "es": "comida",
+    "he": "אוכל",
+    "gender": "f",
+    "example": {
+      "es": "La comida está lista.",
+      "he": "האוכל מוכן."
+    }
+  },
+  {
+    "es": "agua",
+    "he": "מים",
+    "gender": "f",
+    "article": "el",
+    "example": {
+      "es": "Un vaso de agua, por favor.",
+      "he": "כוס מים, בבקשה."
+    }
+  },
+  {
+    "es": "café",
+    "he": "קפה",
+    "gender": "m",
+    "example": {
+      "es": "Tomo un café con leche.",
+      "he": "אני שותה קפה עם חלב."
+    }
+  },
+  {
+    "es": "leche",
+    "he": "חלב",
+    "gender": "f",
+    "example": {
+      "es": "No hay leche en la heladera.",
+      "he": "אין חלב במקרר."
+    }
+  },
+  {
+    "es": "pan",
+    "he": "לחם",
+    "gender": "m",
+    "example": {
+      "es": "Compro pan en la panadería.",
+      "he": "אני קונה לחם במאפייה."
+    }
+  },
+  {
+    "es": "carne",
+    "he": "בשר",
+    "gender": "f",
+    "example": {
+      "es": "La carne argentina es muy rica.",
+      "he": "הבשר הארגנטינאי טעים מאוד."
+    }
+  },
+  {
+    "es": "pollo",
+    "he": "עוף",
+    "gender": "m",
+    "example": {
+      "es": "Hoy comemos pollo con papas.",
+      "he": "היום אנחנו אוכלים עוף עם תפוחי אדמה."
+    }
+  },
+  {
+    "es": "pescado",
+    "he": "דג (מאכל)",
+    "gender": "m",
+    "example": {
+      "es": "No me gusta el pescado.",
+      "he": "אני לא אוהב דג."
+    }
+  },
+  {
+    "es": "huevo",
+    "he": "ביצה",
+    "gender": "m",
+    "example": {
+      "es": "Quiero dos huevos fritos.",
+      "he": "אני רוצה שתי ביצים מטוגנות."
+    }
+  },
+  {
+    "es": "queso",
+    "he": "גבינה",
+    "gender": "m",
+    "example": {
+      "es": "Una pizza con mucho queso.",
+      "he": "פיצה עם הרבה גבינה."
+    }
+  },
+  {
+    "es": "papa",
+    "he": "תפוח אדמה",
+    "gender": "f",
+    "example": {
+      "es": "Las papas fritas están ricas.",
+      "he": "הצ'יפס טעים."
+    }
+  },
+  {
+    "es": "fruta",
+    "he": "פרי",
+    "gender": "f",
+    "example": {
+      "es": "Como fruta todos los días.",
+      "he": "אני אוכל פרי כל יום."
+    }
+  },
+  {
+    "es": "manzana",
+    "he": "תפוח",
+    "gender": "f",
+    "example": {
+      "es": "La manzana es roja.",
+      "he": "התפוח אדום."
+    }
+  },
+  {
+    "es": "banana",
+    "he": "בננה",
+    "gender": "f",
+    "example": {
+      "es": "Una banana para el desayuno.",
+      "he": "בננה לארוחת הבוקר."
+    }
+  },
+  {
+    "es": "frutilla",
+    "he": "תות",
+    "gender": "f",
+    "example": {
+      "es": "Me encanta el helado de frutilla.",
+      "he": "אני מת על גלידת תות."
+    }
+  },
+  {
+    "es": "palta",
+    "he": "אבוקדו",
+    "gender": "f",
+    "example": {
+      "es": "Un tostado con palta.",
+      "he": "טוסט עם אבוקדו."
+    }
+  },
+  {
+    "es": "tomate",
+    "he": "עגבנייה",
+    "gender": "m",
+    "example": {
+      "es": "Una ensalada de tomate.",
+      "he": "סלט עגבניות."
+    }
+  },
+  {
+    "es": "ensalada",
+    "he": "סלט",
+    "gender": "f",
+    "example": {
+      "es": "¿Querés ensalada?",
+      "he": "אתה רוצה סלט?"
+    }
+  },
+  {
+    "es": "arroz",
+    "he": "אורז",
+    "gender": "m",
+    "example": {
+      "es": "El arroz está caliente.",
+      "he": "האורז חם."
+    }
+  },
+  {
+    "es": "vino",
+    "he": "יין",
+    "gender": "m",
+    "example": {
+      "es": "Un vino tinto, por favor.",
+      "he": "יין אדום, בבקשה."
+    }
+  },
+  {
+    "es": "cerveza",
+    "he": "בירה",
+    "gender": "f",
+    "example": {
+      "es": "Dos cervezas bien frías.",
+      "he": "שתי בירות קרות."
+    }
+  },
+  {
+    "es": "mate",
+    "he": "מאטה",
+    "gender": "m",
+    "example": {
+      "es": "Tomamos mate a la tarde.",
+      "he": "אנחנו שותים מאטה אחר הצהריים."
+    }
+  },
+  {
+    "es": "helado",
+    "he": "גלידה",
+    "gender": "m",
+    "example": {
+      "es": "Vamos a tomar un helado.",
+      "he": "בוא נלך לאכול גלידה."
+    }
+  },
+  {
+    "es": "desayuno",
+    "he": "ארוחת בוקר",
+    "gender": "m",
+    "example": {
+      "es": "El desayuno es a las ocho.",
+      "he": "ארוחת הבוקר בשמונה."
+    }
+  },
+  {
+    "es": "almuerzo",
+    "he": "ארוחת צהריים",
+    "gender": "m",
+    "example": {
+      "es": "¿Qué hay para el almuerzo?",
+      "he": "מה יש לארוחת צהריים?"
+    }
+  },
+  {
+    "es": "cena",
+    "he": "ארוחת ערב",
+    "gender": "f",
+    "example": {
+      "es": "La cena es a las diez.",
+      "he": "ארוחת הערב בעשר."
+    }
+  },
+  {
+    "es": "cuenta",
+    "he": "חשבון (במסעדה)",
+    "gender": "f",
+    "example": {
+      "es": "La cuenta, por favor.",
+      "he": "את החשבון, בבקשה."
+    }
+  },
+  {
+    "es": "restaurante",
+    "he": "מסעדה",
+    "gender": "m",
+    "example": {
+      "es": "Es un restaurante muy lindo.",
+      "he": "זו מסעדה מאוד יפה."
+    }
+  }
+]

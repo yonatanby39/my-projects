@@ -1,0 +1,228 @@
+[
+  {
+    "es": "familia",
+    "he": "משפחה",
+    "gender": "f",
+    "example": {
+      "es": "Mi familia vive en Rosario.",
+      "he": "המשפחה שלי גרה ברוסריו."
+    }
+  },
+  {
+    "es": "madre",
+    "he": "אם",
+    "gender": "f",
+    "example": {
+      "es": "Mi madre se llama Laura.",
+      "he": "לאמא שלי קוראים לאורה."
+    }
+  },
+  {
+    "es": "padre",
+    "he": "אב",
+    "gender": "m",
+    "example": {
+      "es": "Mi padre trabaja mucho.",
+      "he": "אבא שלי עובד הרבה."
+    }
+  },
+  {
+    "es": "mamá",
+    "he": "אמא",
+    "gender": "f",
+    "example": {
+      "es": "Mamá, ¿dónde estás?",
+      "he": "אמא, איפה את?"
+    }
+  },
+  {
+    "es": "papá",
+    "he": "אבא",
+    "gender": "m",
+    "example": {
+      "es": "Mi papá cocina muy bien.",
+      "he": "אבא שלי מבשל טוב מאוד."
+    }
+  },
+  {
+    "es": "padres",
+    "he": "הורים",
+    "gender": "m",
+    "plural": true,
+    "example": {
+      "es": "Mis padres viven cerca.",
+      "he": "ההורים שלי גרים קרוב."
+    }
+  },
+  {
+    "es": "hermano",
+    "he": "אח",
+    "gender": "m",
+    "example": {
+      "es": "Tengo un hermano mayor.",
+      "he": "יש לי אח גדול."
+    }
+  },
+  {
+    "es": "hermana",
+    "he": "אחות",
+    "gender": "f",
+    "example": {
+      "es": "Mi hermana tiene veinte años.",
+      "he": "אחותי בת עשרים."
+    }
+  },
+  {
+    "es": "hijo",
+    "he": "בן",
+    "gender": "m",
+    "example": {
+      "es": "Su hijo va a la escuela.",
+      "he": "הבן שלו הולך לבית הספר."
+    }
+  },
+  {
+    "es": "hija",
+    "he": "בת",
+    "gender": "f",
+    "example": {
+      "es": "Tienen una hija chiquita.",
+      "he": "יש להם בת קטנה."
+    }
+  },
+  {
+    "es": "abuelo",
+    "he": "סבא",
+    "gender": "m",
+    "example": {
+      "es": "Mi abuelo es de Córdoba.",
+      "he": "סבא שלי מקורדובה."
+    }
+  },
+  {
+    "es": "abuela",
+    "he": "סבתא",
+    "gender": "f",
+    "example": {
+      "es": "La abuela hace empanadas.",
+      "he": "סבתא מכינה אמפנדס."
+    }
+  },
+  {
+    "es": "tío",
+    "he": "דוד",
+    "gender": "m",
+    "example": {
+      "es": "Mi tío vive en Mendoza.",
+      "he": "הדוד שלי גר במנדוסה."
+    }
+  },
+  {
+    "es": "tía",
+    "he": "דודה",
+    "gender": "f",
+    "example": {
+      "es": "Mi tía es muy simpática.",
+      "he": "הדודה שלי נחמדה מאוד."
+    }
+  },
+  {
+    "es": "primo",
+    "he": "בן דוד",
+    "gender": "m",
+    "example": {
+      "es": "Mi primo juega al fútbol.",
+      "he": "בן הדוד שלי משחק כדורגל."
+    }
+  },
+  {
+    "es": "esposo",
+    "he": "בעל",
+    "gender": "m",
+    "example": {
+      "es": "Su esposo es médico.",
+      "he": "בעלה רופא."
+    }
+  },
+  {
+    "es": "esposa",
+    "he": "אישה (רעיה)",
+    "gender": "f",
+    "example": {
+      "es": "Mi esposa habla inglés.",
+      "he": "אשתי מדברת אנגלית."
+    }
+  },
+  {
+    "es": "novio",
+    "he": "חבר (בן זוג)",
+    "gender": "m",
+    "example": {
+      "es": "Ella tiene novio.",
+      "he": "יש לה חבר."
+    }
+  },
+  {
+    "es": "novia",
+    "he": "חברה (בת זוג)",
+    "gender": "f",
+    "example": {
+      "es": "Mi novia es argentina.",
+      "he": "החברה שלי ארגנטינאית."
+    }
+  },
+  {
+    "es": "amigo",
+    "he": "חבר",
+    "gender": "m",
+    "example": {
+      "es": "Él es mi mejor amigo.",
+      "he": "הוא החבר הכי טוב שלי."
+    }
+  },
+  {
+    "es": "amiga",
+    "he": "חברה",
+    "gender": "f",
+    "example": {
+      "es": "Voy al cine con una amiga.",
+      "he": "אני הולך לקולנוע עם חברה."
+    }
+  },
+  {
+    "es": "pibe",
+    "he": "בחור / ילד (סלנג)",
+    "gender": "m",
+    "example": {
+      "es": "El pibe juega muy bien.",
+      "he": "הילד משחק ממש טוב."
+    }
+  },
+  {
+    "es": "piba",
+    "he": "בחורה / ילדה (סלנג)",
+    "gender": "f",
+    "example": {
+      "es": "La piba habla tres idiomas.",
+      "he": "הבחורה מדברת שלוש שפות."
+    }
+  },
+  {
+    "es": "chica",
+    "he": "בחורה / ילדה",
+    "gender": "f",
+    "example": {
+      "es": "La chica estudia español.",
+      "he": "הבחורה לומדת ספרדית."
+    }
+  },
+  {
+    "es": "gente",
+    "he": "אנשים",
+    "gender": "f",
+    "example": {
+      "es": "Hay mucha gente en la calle.",
+      "he": "יש הרבה אנשים ברחוב."
+    }
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "es": "ciudad",
+    "he": "עיר",
+    "gender": "f",
+    "example": {
+      "es": "Buenos Aires es una ciudad enorme.",
+      "he": "בואנוס איירס היא עיר ענקית."
+    }
+  },
+  {
+    "es": "barrio",
+    "he": "שכונה",
+    "gender": "m",
+    "example": {
+      "es": "Vivo en un barrio tranquilo.",
+      "he": "אני גר בשכונה שקטה."
+    }
+  },
+  {
+    "es": "plaza",
+    "he": "כיכר / גינה ציבורית",
+    "gender": "f",
+    "example": {
+      "es": "Los chicos juegan en la plaza.",
+      "he": "הילדים משחקים בגינה."
+    }
+  },
+  {
+    "es": "hospital",
+    "he": "בית חולים",
+    "gender": "m",
+    "example": {
+      "es": "Mi mamá trabaja en el hospital.",
+      "he": "אמא שלי עובדת בבית החולים."
+    }
+  },
+  {
+    "es": "farmacia",
+    "he": "בית מרקחת",
+    "gender": "f",
+    "example": {
+      "es": "¿Hay una farmacia cerca?",
+      "he": "יש בית מרקחת קרוב?"
+    }
+  },
+  {
+    "es": "supermercado",
+    "he": "סופרמרקט",
+    "gender": "m",
+    "example": {
+      "es": "Voy al supermercado.",
+      "he": "אני הולך לסופר."
+    }
+  },
+  {
+    "es": "banco",
+    "he": "בנק",
+    "gender": "m",
+    "example": {
+      "es": "El banco cierra a las tres.",
+      "he": "הבנק נסגר בשלוש."
+    }
+  },
+  {
+    "es": "escuela",
+    "he": "בית ספר",
+    "gender": "f",
+    "example": {
+      "es": "Mis hijos van a la escuela.",
+      "he": "הילדים שלי הולכים לבית הספר."
+    }
+  },
+  {
+    "es": "trabajo",
+    "he": "עבודה",
+    "gender": "m",
+    "example": {
+      "es": "Salgo del trabajo a las seis.",
+      "he": "אני יוצא מהעבודה בשש."
+    }
+  },
+  {
+    "es": "oficina",
+    "he": "משרד",
+    "gender": "f",
+    "example": {
+      "es": "La oficina está en el centro.",
+      "he": "המשרד נמצא במרכז."
+    }
+  },
+  {
+    "es": "centro",
+    "he": "מרכז העיר",
+    "gender": "m",
+    "example": {
+      "es": "Vamos al centro.",
+      "he": "בוא ניסע למרכז."
+    }
+  },
+  {
+    "es": "hotel",
+    "he": "מלון",
+    "gender": "m",
+    "example": {
+      "es": "El hotel tiene pileta.",
+      "he": "במלון יש בריכה."
+    }
+  },
+  {
+    "es": "playa",
+    "he": "חוף ים",
+    "gender": "f",
+    "example": {
+      "es": "En verano vamos a la playa.",
+      "he": "בקיץ אנחנו נוסעים לים."
+    }
+  },
+  {
+    "es": "parque",
+    "he": "פארק",
+    "gender": "m",
+    "example": {
+      "es": "Corro en el parque.",
+      "he": "אני רץ בפארק."
+    }
+  },
+  {
+    "es": "negocio",
+    "he": "חנות",
+    "gender": "m",
+    "example": {
+      "es": "El negocio abre a las diez.",
+      "he": "החנות נפתחת בעשר."
+    }
+  },
+  {
+    "es": "kiosco",
+    "he": "קיוסק",
+    "gender": "m",
+    "example": {
+      "es": "Compro agua en el kiosco.",
+      "he": "אני קונה מים בקיוסק."
+    }
+  },
+  {
+    "es": "cine",
+    "he": "קולנוע",
+    "gender": "m",
+    "example": {
+      "es": "¿Vamos al cine?",
+      "he": "הולכים לקולנוע?"
+    }
+  },
+  {
+    "es": "baño",
+    "he": "שירותים / חדר אמבטיה",
+    "gender": "m",
+    "example": {
+      "es": "¿Dónde está el baño?",
+      "he": "איפה השירותים?"
+    }
+  },
+  {
+    "es": "museo",
+    "he": "מוזיאון",
+    "gender": "m",
+    "example": {
+      "es": "El museo es gratis los miércoles.",
+      "he": "המוזיאון בחינם בימי רביעי."
+    }
+  },
+  {
+    "es": "país",
+    "he": "ארץ / מדינה",
+    "gender": "m",
+    "example": {
+      "es": "Argentina es un país hermoso.",
+      "he": "ארגנטינה היא ארץ יפהפייה."
+    }
+  },
+  {
+    "es": "cancha",
+    "he": "מגרש (ספורט)",
+    "gender": "f",
+    "example": {
+      "es": "Vamos a la cancha a ver a River.",
+      "he": "הולכים למגרש לראות את ריבר."
+    }
+  }
+]
