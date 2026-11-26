@@ -21,7 +21,7 @@ describe('storage', () => {
   it('fills missing fields from defaults', () => {
     const store = memoryStore({ [STORAGE_KEY]: JSON.stringify({ version: 1, settings: { newWordsPerDay: 5 } }) })
     const state = loadState(store)
-    expect(state.settings).toEqual({ newWordsPerDay: 5, voiceURI: null })
+    expect(state.settings).toEqual({ newWordsPerDay: 5, voiceURI: null, soundOn: true, dailyGoalXp: 50 })
     expect(state.cards).toEqual({})
   })
 

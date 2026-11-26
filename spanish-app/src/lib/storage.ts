@@ -10,6 +10,8 @@ export const SCHEMA_VERSION = 1
 export interface DailyLog {
   newWords: number
   reviews: number
+  /** Points earned that day. */
+  xp?: number
 }
 
 export interface Streak {
@@ -23,6 +25,10 @@ export interface Settings {
   newWordsPerDay: number
   /** Chosen speech voice (SpeechSynthesisVoice.voiceURI), or null for automatic. */
   voiceURI: string | null
+  /** Play short sounds for right and wrong answers. */
+  soundOn: boolean
+  /** Daily points goal. */
+  dailyGoalXp: number
 }
 
 export interface AppState {
@@ -41,7 +47,7 @@ export function defaultState(): AppState {
     cards: {},
     streak: { current: 0, longest: 0, lastActiveDate: null },
     daily: {},
-    settings: { newWordsPerDay: 10, voiceURI: null },
+    settings: { newWordsPerDay: 10, voiceURI: null, soundOn: true, dailyGoalXp: 50 },
   }
 }
 

@@ -6,6 +6,8 @@ import {
   newWordsLeftToday,
   nextNewWordIds,
   recordPractice,
+  addXp,
+  xpToday,
   reviewWord,
   stats,
 } from './progress'
@@ -20,7 +22,7 @@ describe('learning words', () => {
   it('creates cards and counts them for today', () => {
     const s = learnWords(defaultState(), ['a', 'b'], D1)
     expect(Object.keys(s.cards)).toEqual(['a', 'b'])
-    expect(s.daily[D1]).toEqual({ newWords: 2, reviews: 0 })
+    expect(s.daily[D1]).toEqual({ newWords: 2, reviews: 0, xp: 0 })
   })
 
   it('ignores words that are already learned', () => {
@@ -88,5 +90,15 @@ describe('recordPractice', () => {
     s = recordPractice(s, D2)
     expect(s.streak.current).toBe(2)
     expect(s.cards).toEqual({})
+  })
+})
+
+describe('xp', () => {
+  it('adds up points per day and counts for the streak', () => {
+    let s = addXp(defaultState(), D1, 20)
+    s = addXp(s, D1, 15)
+    expect(xpToday(s, D1)).toBe(35)
+    expect(xpToday(s, D2)).toBe(0)
+    expect(s.streak.current).toBe(1)
   })
 })

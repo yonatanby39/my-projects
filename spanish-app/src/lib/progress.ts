@@ -10,7 +10,11 @@ function withActivity(state: AppState, today: string, delta: Partial<DailyLog>):
   const log = state.daily[today] ?? { newWords: 0, reviews: 0 }
   const daily = {
     ...state.daily,
-    [today]: { newWords: log.newWords + (delta.newWords ?? 0), reviews: log.reviews + (delta.reviews ?? 0) },
+    [today]: {
+      newWords: log.newWords + (delta.newWords ?? 0),
+      reviews: log.reviews + (delta.reviews ?? 0),
+      xp: (log.xp ?? 0) + (delta.xp ?? 0),
+    },
   }
 
   const { lastActiveDate, current, longest } = state.streak
@@ -50,6 +54,15 @@ export function reviewWord(state: AppState, wordId: string, grade: Grade, today:
 /** Records practice that is not tied to a word card (e.g. conjugation), so it counts for the streak. */
 export function recordPractice(state: AppState, today: string): AppState {
   return withActivity(state, today, {})
+}
+
+/** Adds points earned today (also counts as activity for the streak). */
+export function addXp(state: AppState, today: string, xp: number): AppState {
+  return withActivity(state, today, { xp })
+}
+
+export function xpToday(state: AppState, today: string): number {
+  return state.daily[today]?.xp ?? 0
 }
 
 /** Streak to display: it stays alive until the end of the day after the last activity. */

@@ -3,7 +3,7 @@
 ## Goal
 A mobile-first PWA for a native Hebrew speaker to learn everyday **Argentine (Rioplatense) Spanish** in 10–15 minutes a day. The learner already has some basics. Personal use first; may be opened to others later.
 
-MVP features: vocabulary flashcards with SM-2 spaced repetition, pronunciation via the Web Speech API, present-tense conjugation practice, an end-of-lesson quiz (multiple choice + typing), and progress tracking (streak, words learned, due today).
+Features: interactive lessons that teach 6 words in groups of 3 and mix exercise types (multiple choice both ways, listen and choose, typing, dictation, match pairs, build a sentence from word tiles, fill in the blank); wrong answers repeat at the end of the session. SM-2 spaced repetition with a daily review in the same mixed exercises. Pronunciation via the Web Speech API. Present-tense conjugation practice. Points (XP), a daily goal, streak, sounds (can be muted).
 
 Out of scope for now: accounts, login, backend, payments, AI features. Everything runs locally in the browser.
 
@@ -30,11 +30,13 @@ npm run lint       # oxlint
 ## Folder structure
 ```
 src/
-  content/     learning content as JSON (words per topic, verbs). Never hard-code content in components.
-  lib/         pure logic with no React (srs, answer checking, progress, storage, speech, dates)
+  content/     learning content as JSON: words/<topic>.json, topics.json, verbs.json, sentences.json (extra sentences per topic).
+               Never hard-code content in components.
+  lib/         pure logic with no React (srs, answer checking, exercises + lesson/review builders, session queue,
+               progress, storage, speech, sound, dates)
                each module has a *.test.ts next to it
-  components/  reusable UI pieces
-  screens/     full screens (Home, Lesson, Quiz, Review, Conjugation, Settings)
+  components/  reusable UI pieces; components/exercises/ has one component per exercise type
+  screens/     full screens (Home, Session, LessonDone, Conjugation, Settings)
 ```
 
 ## Conventions
@@ -46,3 +48,5 @@ src/
 - Mobile-first: tap targets at least 48px tall (`min-h-12`+), large readable text.
 - Keep logic in `src/lib` pure and tested; components stay thin.
 - Build one small step at a time; each step must pass `npm test`, `npm run build` and `npm run lint`.
+- **Exercises:** add a new type in `src/lib/exercises.ts` (type, builder, grading, tests), a component in `src/components/exercises/`, and a case in `src/screens/Session.tsx`.
+- **Design:** the app's own look (orange/amber, rounded cards, chunky buttons). It uses common language-app mechanics but must not copy any existing app's branding, characters or visuals.

@@ -3,6 +3,7 @@
  * To add a topic: add a file in src/content/words/<topic>.json and an entry in topics.json.
  */
 import topicsJson from '../content/topics.json'
+import sentencesJson from '../content/sentences.json'
 import verbsJson from '../content/verbs.json'
 import { normalize } from './answer'
 
@@ -93,3 +94,12 @@ export const wordFileTopics: string[] = Object.keys(wordFiles).map((path) =>
 
 export const persons: Person[] = verbsJson.persons as Person[]
 export const verbs: Verb[] = verbsJson.verbs as Verb[]
+
+/** Everyday sentences per topic, used for sentence-building practice. */
+export interface Sentence {
+  topic: string
+  es: string
+  he: string
+}
+
+export const sentences: Sentence[] = sentencesJson as Sentence[]

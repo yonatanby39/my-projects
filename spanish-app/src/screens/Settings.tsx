@@ -3,13 +3,15 @@ import { loadVoices, pickVoice, speak, speechSupported, spanishVoices } from '..
 
 interface Props {
   voiceURI: string | null
+  soundOn: boolean
+  onChangeSound: (on: boolean) => void
   onChangeVoice: (voiceURI: string | null) => void
   onBack: () => void
 }
 
 const SAMPLE = '¡Hola, che! ¿Cómo andás? Vos tenés razón.'
 
-export function Settings({ voiceURI, onChangeVoice, onBack }: Props) {
+export function Settings({ voiceURI, soundOn, onChangeSound, onChangeVoice, onBack }: Props) {
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([])
   const [loaded, setLoaded] = useState(false)
 
@@ -80,6 +82,18 @@ export function Settings({ voiceURI, onChangeVoice, onBack }: Props) {
             </button>
           </>
         )}
+      </section>
+
+      <section className="rounded-2xl bg-white p-4 shadow-sm">
+        <label className="flex min-h-12 items-center justify-between gap-3">
+          <span className="text-lg font-semibold">צלילים לתשובה נכונה ושגויה</span>
+          <input
+            type="checkbox"
+            checked={soundOn}
+            onChange={(e) => onChangeSound(e.target.checked)}
+            className="h-7 w-7 accent-orange-500"
+          />
+        </label>
       </section>
 
       <section className="rounded-2xl bg-white p-4 text-sm text-slate-600 shadow-sm">

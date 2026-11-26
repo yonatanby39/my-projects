@@ -1,0 +1,202 @@
+[
+  {
+    "topic": "greetings",
+    "es": "Hola, soy Dani. ¿Y vos?",
+    "he": "היי, אני דני. ואתה?"
+  },
+  {
+    "topic": "greetings",
+    "es": "Todo bien, ¿y vos?",
+    "he": "הכול טוב, ואתה?"
+  },
+  {
+    "topic": "greetings",
+    "es": "Perdón, no hablo bien español.",
+    "he": "סליחה, אני לא מדבר ספרדית טוב."
+  },
+  {
+    "topic": "greetings",
+    "es": "Chau, ¡que tengas un buen día!",
+    "he": "ביי, שיהיה לך יום טוב!"
+  },
+  {
+    "topic": "family",
+    "es": "Tengo dos hermanos y una hermana.",
+    "he": "יש לי שני אחים ואחות אחת."
+  },
+  {
+    "topic": "family",
+    "es": "Mis abuelos viven en el campo.",
+    "he": "סבא וסבתא שלי גרים בכפר."
+  },
+  {
+    "topic": "family",
+    "es": "¿Tenés hijos?",
+    "he": "יש לך ילדים?"
+  },
+  {
+    "topic": "family",
+    "es": "Mi mamá es muy simpática.",
+    "he": "אמא שלי מאוד נחמדה."
+  },
+  {
+    "topic": "food",
+    "es": "Quiero un café con leche, por favor.",
+    "he": "אני רוצה קפה עם חלב, בבקשה."
+  },
+  {
+    "topic": "food",
+    "es": "¿Me traés la carta?",
+    "he": "תביא לי את התפריט?"
+  },
+  {
+    "topic": "food",
+    "es": "Para mí, una empanada de carne.",
+    "he": "בשבילי, אמפנדה בשר."
+  },
+  {
+    "topic": "food",
+    "es": "¿Cuánto es todo?",
+    "he": "כמה זה הכול?"
+  },
+  {
+    "topic": "numbers",
+    "es": "Tengo treinta años.",
+    "he": "אני בן שלושים."
+  },
+  {
+    "topic": "numbers",
+    "es": "Son dos mil pesos.",
+    "he": "זה אלפיים פסו."
+  },
+  {
+    "topic": "numbers",
+    "es": "Somos cinco en mi familia.",
+    "he": "אנחנו חמישה במשפחה שלי."
+  },
+  {
+    "topic": "numbers",
+    "es": "El colectivo tarda diez minutos.",
+    "he": "האוטובוס לוקח עשר דקות."
+  },
+  {
+    "topic": "time",
+    "es": "¿Qué hacés mañana a la noche?",
+    "he": "מה אתה עושה מחר בערב?"
+  },
+  {
+    "topic": "time",
+    "es": "Hoy trabajo hasta las seis.",
+    "he": "היום אני עובד עד שש."
+  },
+  {
+    "topic": "time",
+    "es": "Nos vemos el sábado a la tarde.",
+    "he": "נתראה בשבת אחר הצהריים."
+  },
+  {
+    "topic": "time",
+    "es": "Siempre llego temprano.",
+    "he": "אני תמיד מגיע מוקדם."
+  },
+  {
+    "topic": "transport",
+    "es": "¿Este colectivo va al centro?",
+    "he": "האוטובוס הזה נוסע למרכז?"
+  },
+  {
+    "topic": "transport",
+    "es": "Tengo que cargar la SUBE.",
+    "he": "אני צריך להטעין את כרטיס הנסיעה."
+  },
+  {
+    "topic": "transport",
+    "es": "Bajo en la próxima parada.",
+    "he": "אני יורד בתחנה הבאה."
+  },
+  {
+    "topic": "transport",
+    "es": "Doblá a la derecha en la esquina.",
+    "he": "פנה ימינה בפינה."
+  },
+  {
+    "topic": "places",
+    "es": "¿Dónde hay un cajero?",
+    "he": "איפה יש כספומט?"
+  },
+  {
+    "topic": "places",
+    "es": "La farmacia está a dos cuadras.",
+    "he": "בית המרקחת נמצא במרחק שני בלוקים."
+  },
+  {
+    "topic": "places",
+    "es": "Vamos a la plaza con los chicos.",
+    "he": "בוא נלך לגינה עם הילדים."
+  },
+  {
+    "topic": "places",
+    "es": "El museo está cerrado los lunes.",
+    "he": "המוזיאון סגור בימי שני."
+  },
+  {
+    "topic": "home",
+    "es": "Mi departamento tiene dos habitaciones.",
+    "he": "בדירה שלי יש שני חדרים."
+  },
+  {
+    "topic": "home",
+    "es": "¿Dónde dejé las llaves?",
+    "he": "איפה השארתי את המפתחות?"
+  },
+  {
+    "topic": "home",
+    "es": "El gato duerme en mi cama.",
+    "he": "החתול ישן במיטה שלי."
+  },
+  {
+    "topic": "home",
+    "es": "Cerrá la ventana, hace frío.",
+    "he": "סגור את החלון, קר."
+  },
+  {
+    "topic": "describing",
+    "es": "Este café está muy rico.",
+    "he": "הקפה הזה ממש טעים."
+  },
+  {
+    "topic": "describing",
+    "es": "Estoy cansado pero contento.",
+    "he": "אני עייף אבל מרוצה."
+  },
+  {
+    "topic": "describing",
+    "es": "La casa es grande y linda.",
+    "he": "הבית גדול ויפה."
+  },
+  {
+    "topic": "describing",
+    "es": "Es caro pero es bueno.",
+    "he": "זה יקר אבל זה טוב."
+  },
+  {
+    "topic": "phrases",
+    "es": "Perdón, ¿me repetís?",
+    "he": "סליחה, תוכל לחזור על זה?"
+  },
+  {
+    "topic": "phrases",
+    "es": "No entiendo, ¿hablás más despacio?",
+    "he": "אני לא מבין, תוכל לדבר יותר לאט?"
+  },
+  {
+    "topic": "phrases",
+    "es": "¿Cómo se dice esto en español?",
+    "he": "איך אומרים את זה בספרדית?"
+  },
+  {
+    "topic": "phrases",
+    "es": "Claro, no hay problema.",
+    "he": "בטח, אין בעיה."
+  }
+]

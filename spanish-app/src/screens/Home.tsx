@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Es } from '../components/Es'
 import { displaySpanish, wordsById } from '../lib/content'
-import { dueWordIds, stats } from '../lib/progress'
+import { dueWordIds, stats, xpToday } from '../lib/progress'
 import type { AppState } from '../lib/storage'
 
 interface Props {
@@ -51,6 +51,21 @@ export function Home({ state, today, newWordsAvailable, onStartLesson, onStartRe
         <Stat value={s.streak} label="ימים ברצף 🔥" />
         <Stat value={s.wordsLearned} label="מילים שלמדתי" />
         <Stat value={s.dueToday} label="לחזרה היום" />
+      </section>
+
+      <section className="rounded-2xl bg-white p-4 shadow-sm">
+        <div className="flex justify-between text-sm font-semibold">
+          <span>היעד היומי ⚡</span>
+          <span>
+            {Math.min(xpToday(state, today), state.settings.dailyGoalXp)} / {state.settings.dailyGoalXp}
+          </span>
+        </div>
+        <div className="mt-2 h-3 overflow-hidden rounded-full bg-slate-200">
+          <div
+            className="h-full rounded-full bg-amber-400 transition-all"
+            style={{ width: `${Math.min(100, (xpToday(state, today) / state.settings.dailyGoalXp) * 100)}%` }}
+          />
+        </div>
       </section>
 
       {due.length > 0 && (
