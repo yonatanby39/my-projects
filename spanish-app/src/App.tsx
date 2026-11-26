@@ -1,31 +1,41 @@
-import { Es } from './components/Es'
+import { useState } from 'react'
+import { type Word, words, wordsById } from './lib/content'
+import { learnWords, nextNewWordIds } from './lib/progress'
+import { Home } from './screens/Home'
+import { Lesson } from './screens/Lesson'
+import { today, useAppState } from './useAppState'
+
+const LESSON_SIZE = 10
+const allWordIds = words.map((w) => w.id)
+
+type Screen = { name: 'home' } | { name: 'lesson'; words: Word[] }
 
 export default function App() {
+  const [state, update] = useAppState()
+  const [screen, setScreen] = useState<Screen>({ name: 'home' })
+  const nextIds = nextNewWordIds(state, allWordIds, LESSON_SIZE)
+
+  if (screen.name === 'lesson') {
+    return (
+      <Lesson
+        words={screen.words}
+        voiceURI={state.settings.voiceURI}
+        onExit={() => setScreen({ name: 'home' })}
+        onFinish={() => {
+          // The quiz (step 6) will come before saving; for now finishing the cards learns them.
+          update((s) => learnWords(s, screen.words.map((w) => w.id), today()))
+          setScreen({ name: 'home' })
+        }}
+      />
+    )
+  }
+
   return (
-    <main className="mx-auto flex min-h-screen max-w-md flex-col gap-6 p-6">
-      <header className="pt-4">
-        <h1 className="text-3xl font-bold">ספרדית ביום</h1>
-        <p className="mt-1 text-slate-600">10–15 דקות של ספרדית ארגנטינאית בכל יום</p>
-      </header>
-
-      <section className="rounded-2xl bg-white p-6 shadow-sm">
-        <p className="text-sm text-slate-500">מילה לדוגמה</p>
-        <p className="mt-2 text-4xl font-semibold">
-          <Es>¡Hola, che!</Es>
-        </p>
-        <p className="mt-1 text-lg">שלום, חבר!</p>
-      </section>
-
-      <button
-        type="button"
-        className="min-h-14 rounded-2xl bg-orange-500 px-6 text-xl font-semibold text-white shadow active:scale-[0.98]"
-      >
-        התחל שיעור
-      </button>
-
-      <footer className="mt-auto text-center text-xs text-slate-400">
-        שלב 1: שלד האפליקציה
-      </footer>
-    </main>
+    <Home
+      state={state}
+      today={today()}
+      newWordsAvailable={nextIds.length}
+      onStartLesson={() => setScreen({ name: 'lesson', words: nextIds.map((id) => wordsById.get(id)!) })}
+    />
   )
 }
