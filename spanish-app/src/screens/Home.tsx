@@ -1,4 +1,7 @@
-import { stats } from '../lib/progress'
+import { useState } from 'react'
+import { Es } from '../components/Es'
+import { displaySpanish, wordsById } from '../lib/content'
+import { dueWordIds, stats } from '../lib/progress'
 import type { AppState } from '../lib/storage'
 
 interface Props {
@@ -6,6 +9,7 @@ interface Props {
   today: string
   newWordsAvailable: number
   onStartLesson: () => void
+  onStartReview: () => void
 }
 
 function Stat({ value, label }: { value: number; label: string }) {
@@ -17,8 +21,11 @@ function Stat({ value, label }: { value: number; label: string }) {
   )
 }
 
-export function Home({ state, today, newWordsAvailable, onStartLesson }: Props) {
+export function Home({ state, today, newWordsAvailable, onStartLesson, onStartReview }: Props) {
   const s = stats(state, today)
+  const due = dueWordIds(state, today).flatMap((id) => wordsById.get(id) ?? [])
+  const [showDue, setShowDue] = useState(false)
+
   return (
     <main className="mx-auto flex min-h-screen max-w-md flex-col gap-6 p-6">
       <header className="pt-4">
@@ -34,11 +41,43 @@ export function Home({ state, today, newWordsAvailable, onStartLesson }: Props) 
         <Stat value={s.dueToday} label="לחזרה היום" />
       </section>
 
+      {due.length > 0 && (
+        <section className="flex flex-col gap-3 rounded-2xl bg-white p-4 shadow-sm">
+          <button
+            type="button"
+            onClick={onStartReview}
+            className="min-h-16 rounded-2xl bg-sky-500 px-6 text-xl font-semibold text-white shadow active:scale-[0.98]"
+          >
+            חזרה: {due.length} מילים
+          </button>
+          <button
+            type="button"
+            onClick={() => setShowDue((v) => !v)}
+            className="min-h-12 text-sky-700"
+            aria-expanded={showDue}
+          >
+            {showDue ? 'הסתר את הרשימה ▲' : 'אילו מילים לחזרה היום? ▼'}
+          </button>
+          {showDue && (
+            <ul className="grid gap-2 border-t border-slate-100 pt-3">
+              {due.map((w) => (
+                <li key={w.id} className="flex justify-between gap-3">
+                  <Es className="font-semibold">{displaySpanish(w)}</Es>
+                  <span className="text-slate-600">{w.he}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
+      )}
+
       {newWordsAvailable > 0 ? (
         <button
           type="button"
           onClick={onStartLesson}
-          className="min-h-16 rounded-2xl bg-orange-500 px-6 text-xl font-semibold text-white shadow active:scale-[0.98]"
+          className={`min-h-16 rounded-2xl px-6 text-xl font-semibold shadow active:scale-[0.98] ${
+            due.length > 0 ? 'bg-white text-orange-600' : 'bg-orange-500 text-white'
+          }`}
         >
           שיעור חדש: {newWordsAvailable} מילים
         </button>

@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import { type Word, words, wordsById } from './lib/content'
-import { learnWords, nextNewWordIds, reviewWord } from './lib/progress'
+import { dueWordIds, learnWords, nextNewWordIds, reviewWord } from './lib/progress'
 import { type QuizQuestion, type QuizResult, buildQuiz, srsGrade } from './lib/quiz'
 import { Home } from './screens/Home'
 import { Lesson } from './screens/Lesson'
 import { LessonDone } from './screens/LessonDone'
 import { Quiz } from './screens/Quiz'
+import { Review } from './screens/Review'
+import { ReviewDone } from './screens/ReviewDone'
 import { today, useAppState } from './useAppState'
 
 const LESSON_SIZE = 10
@@ -16,6 +18,8 @@ type Screen =
   | { name: 'lesson'; words: Word[] }
   | { name: 'quiz'; questions: QuizQuestion[] }
   | { name: 'done'; questions: QuizQuestion[]; results: QuizResult[] }
+  | { name: 'review'; words: Word[] }
+  | { name: 'reviewDone'; count: number }
 
 export default function App() {
   const [state, update] = useAppState()
@@ -54,6 +58,18 @@ export default function App() {
       )
     case 'done':
       return <LessonDone questions={screen.questions} results={screen.results} onHome={goHome} />
+    case 'review':
+      return (
+        <Review
+          words={screen.words}
+          voiceURI={state.settings.voiceURI}
+          onExit={goHome}
+          onGrade={(id, grade) => update((s) => reviewWord(s, id, grade, today()))}
+          onFinish={() => setScreen({ name: 'reviewDone', count: screen.words.length })}
+        />
+      )
+    case 'reviewDone':
+      return <ReviewDone count={screen.count} onHome={goHome} />
     case 'home': {
       const nextIds = nextNewWordIds(state, allWordIds, LESSON_SIZE)
       return (
@@ -62,6 +78,9 @@ export default function App() {
           today={today()}
           newWordsAvailable={nextIds.length}
           onStartLesson={() => setScreen({ name: 'lesson', words: nextIds.map((id) => wordsById.get(id)!) })}
+          onStartReview={() =>
+            setScreen({ name: 'review', words: dueWordIds(state, today()).flatMap((id) => wordsById.get(id) ?? []) })
+          }
         />
       )
     }
