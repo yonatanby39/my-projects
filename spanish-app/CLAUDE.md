@@ -11,7 +11,8 @@ Out of scope for now: accounts, login, backend, payments, AI features. Everythin
 - React + Vite + TypeScript, Tailwind CSS v4 (`@tailwindcss/vite`)
 - Vitest for unit tests
 - Persistence in `localStorage` (versioned schema)
-- PWA (installable, offline) – added in a later step
+- PWA via `vite-plugin-pwa` (installable, offline precache of all assets and content)
+- Hosting: GitHub Pages from the `gh-pages` branch, deployed with `scripts/deploy-pages.sh` (https://yonatanby39.github.io/my-projects/)
 
 ## How to run
 All commands run from `spanish-app/`:
@@ -23,6 +24,7 @@ npm test           # run Vitest once
 npm run test:watch # Vitest in watch mode
 npm run build      # type-check + production build into dist/
 npm run lint       # oxlint
+./scripts/deploy-pages.sh  # build and publish to GitHub Pages (gh-pages branch)
 ```
 
 ## Folder structure
@@ -32,7 +34,7 @@ src/
   lib/         pure logic with no React (srs, answer checking, progress, storage, speech, dates)
                each module has a *.test.ts next to it
   components/  reusable UI pieces
-  screens/     full screens (Home, Lesson, Review, Quiz, Conjugation, Progress)
+  screens/     full screens (Home, Lesson, Quiz, Review, Conjugation, Settings)
 ```
 
 ## Conventions

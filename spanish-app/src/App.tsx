@@ -9,6 +9,7 @@ import { Home } from './screens/Home'
 import { Lesson } from './screens/Lesson'
 import { LessonDone } from './screens/LessonDone'
 import { Quiz } from './screens/Quiz'
+import { Settings } from './screens/Settings'
 import { Review } from './screens/Review'
 import { ReviewDone } from './screens/ReviewDone'
 import { today, useAppState } from './useAppState'
@@ -26,6 +27,7 @@ type Screen =
   | { name: 'reviewDone'; count: number }
   | { name: 'conjugation'; questions: ConjugationQuestion[] }
   | { name: 'conjugationDone'; correct: number; total: number }
+  | { name: 'settings' }
 
 export default function App() {
   const [state, update] = useAppState()
@@ -91,6 +93,14 @@ export default function App() {
       )
     case 'conjugationDone':
       return <ConjugationDone correct={screen.correct} total={screen.total} onAgain={startDrill} onHome={goHome} />
+    case 'settings':
+      return (
+        <Settings
+          voiceURI={state.settings.voiceURI}
+          onChangeVoice={(voiceURI) => update((s) => ({ ...s, settings: { ...s.settings, voiceURI } }))}
+          onBack={goHome}
+        />
+      )
     case 'home': {
       const nextIds = nextNewWordIds(state, allWordIds, LESSON_SIZE)
       return (
@@ -100,6 +110,7 @@ export default function App() {
           newWordsAvailable={nextIds.length}
           onStartLesson={() => setScreen({ name: 'lesson', words: nextIds.map((id) => wordsById.get(id)!) })}
           onStartConjugation={startDrill}
+          onOpenSettings={() => setScreen({ name: 'settings' })}
           onStartReview={() =>
             setScreen({ name: 'review', words: dueWordIds(state, today()).flatMap((id) => wordsById.get(id) ?? []) })
           }

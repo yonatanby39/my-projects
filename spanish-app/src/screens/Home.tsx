@@ -11,6 +11,7 @@ interface Props {
   onStartLesson: () => void
   onStartReview: () => void
   onStartConjugation: () => void
+  onOpenSettings: () => void
 }
 
 function Stat({ value, label }: { value: number; label: string }) {
@@ -22,7 +23,7 @@ function Stat({ value, label }: { value: number; label: string }) {
   )
 }
 
-export function Home({ state, today, newWordsAvailable, onStartLesson, onStartReview, onStartConjugation }: Props) {
+export function Home({ state, today, newWordsAvailable, onStartLesson, onStartReview, onStartConjugation, onOpenSettings }: Props) {
   const s = stats(state, today)
   const due = dueWordIds(state, today).flatMap((id) => wordsById.get(id) ?? [])
   const [showDue, setShowDue] = useState(false)
@@ -30,7 +31,17 @@ export function Home({ state, today, newWordsAvailable, onStartLesson, onStartRe
   return (
     <main className="mx-auto flex min-h-screen max-w-md flex-col gap-6 p-6">
       <header className="pt-4">
-        <h1 className="text-3xl font-bold">ספרדית ביום</h1>
+        <div className="flex items-center justify-between">
+          <h1 className="text-3xl font-bold">ספרדית ביום</h1>
+          <button
+            type="button"
+            onClick={onOpenSettings}
+            aria-label="הגדרות"
+            className="h-12 w-12 rounded-full bg-white text-xl shadow-sm active:scale-95"
+          >
+            ⚙️
+          </button>
+        </div>
         <p className="mt-1 text-slate-600">
           {s.practicedToday ? 'כל הכבוד, תרגלת היום! 🎉' : '10 עד 15 דקות של ספרדית ארגנטינאית בכל יום'}
         </p>
