@@ -5,6 +5,7 @@ import {
   learnWords,
   newWordsLeftToday,
   nextNewWordIds,
+  recordPractice,
   reviewWord,
   stats,
 } from './progress'
@@ -78,5 +79,14 @@ describe('streak', () => {
     expect(currentStreak(s, D2)).toBe(1)
     expect(currentStreak(s, D3)).toBe(0)
     expect(currentStreak(defaultState(), D1)).toBe(0)
+  })
+})
+
+describe('recordPractice', () => {
+  it('counts for the streak without changing cards', () => {
+    let s = recordPractice(defaultState(), D1)
+    s = recordPractice(s, D2)
+    expect(s.streak.current).toBe(2)
+    expect(s.cards).toEqual({})
   })
 })

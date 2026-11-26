@@ -10,6 +10,7 @@ interface Props {
   newWordsAvailable: number
   onStartLesson: () => void
   onStartReview: () => void
+  onStartConjugation: () => void
 }
 
 function Stat({ value, label }: { value: number; label: string }) {
@@ -21,7 +22,7 @@ function Stat({ value, label }: { value: number; label: string }) {
   )
 }
 
-export function Home({ state, today, newWordsAvailable, onStartLesson, onStartReview }: Props) {
+export function Home({ state, today, newWordsAvailable, onStartLesson, onStartReview, onStartConjugation }: Props) {
   const s = stats(state, today)
   const due = dueWordIds(state, today).flatMap((id) => wordsById.get(id) ?? [])
   const [showDue, setShowDue] = useState(false)
@@ -84,6 +85,14 @@ export function Home({ state, today, newWordsAvailable, onStartLesson, onStartRe
       ) : (
         <p className="rounded-2xl bg-white p-4 text-center">למדת את כל המילים! 🎉</p>
       )}
+
+      <button
+        type="button"
+        onClick={onStartConjugation}
+        className="min-h-16 rounded-2xl bg-white px-6 text-xl font-semibold text-violet-700 shadow-sm active:scale-[0.98]"
+      >
+        תרגול הטיית פעלים
+      </button>
     </main>
   )
 }

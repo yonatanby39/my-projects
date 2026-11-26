@@ -1,7 +1,10 @@
 import { useState } from 'react'
-import { type Word, words, wordsById } from './lib/content'
-import { dueWordIds, learnWords, nextNewWordIds, reviewWord } from './lib/progress'
+import { type ConjugationQuestion, buildDrill } from './lib/conjugation'
+import { type Word, persons, verbs, words, wordsById } from './lib/content'
+import { dueWordIds, learnWords, nextNewWordIds, recordPractice, reviewWord } from './lib/progress'
 import { type QuizQuestion, type QuizResult, buildQuiz, srsGrade } from './lib/quiz'
+import { Conjugation } from './screens/Conjugation'
+import { ConjugationDone } from './screens/ConjugationDone'
 import { Home } from './screens/Home'
 import { Lesson } from './screens/Lesson'
 import { LessonDone } from './screens/LessonDone'
@@ -11,6 +14,7 @@ import { ReviewDone } from './screens/ReviewDone'
 import { today, useAppState } from './useAppState'
 
 const LESSON_SIZE = 10
+const DRILL_SIZE = 10
 const allWordIds = words.map((w) => w.id)
 
 type Screen =
@@ -20,11 +24,14 @@ type Screen =
   | { name: 'done'; questions: QuizQuestion[]; results: QuizResult[] }
   | { name: 'review'; words: Word[] }
   | { name: 'reviewDone'; count: number }
+  | { name: 'conjugation'; questions: ConjugationQuestion[] }
+  | { name: 'conjugationDone'; correct: number; total: number }
 
 export default function App() {
   const [state, update] = useAppState()
   const [screen, setScreen] = useState<Screen>({ name: 'home' })
   const goHome = () => setScreen({ name: 'home' })
+  const startDrill = () => setScreen({ name: 'conjugation', questions: buildDrill(verbs, persons, DRILL_SIZE) })
 
   switch (screen.name) {
     case 'lesson':
@@ -70,6 +77,20 @@ export default function App() {
       )
     case 'reviewDone':
       return <ReviewDone count={screen.count} onHome={goHome} />
+    case 'conjugation':
+      return (
+        <Conjugation
+          questions={screen.questions}
+          voiceURI={state.settings.voiceURI}
+          onExit={goHome}
+          onFinish={(correct) => {
+            update((s) => recordPractice(s, today()))
+            setScreen({ name: 'conjugationDone', correct, total: screen.questions.length })
+          }}
+        />
+      )
+    case 'conjugationDone':
+      return <ConjugationDone correct={screen.correct} total={screen.total} onAgain={startDrill} onHome={goHome} />
     case 'home': {
       const nextIds = nextNewWordIds(state, allWordIds, LESSON_SIZE)
       return (
@@ -78,6 +99,7 @@ export default function App() {
           today={today()}
           newWordsAvailable={nextIds.length}
           onStartLesson={() => setScreen({ name: 'lesson', words: nextIds.map((id) => wordsById.get(id)!) })}
+          onStartConjugation={startDrill}
           onStartReview={() =>
             setScreen({ name: 'review', words: dueWordIds(state, today()).flatMap((id) => wordsById.get(id) ?? []) })
           }

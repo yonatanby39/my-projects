@@ -47,6 +47,11 @@ export function reviewWord(state: AppState, wordId: string, grade: Grade, today:
   return withActivity({ ...state, cards }, today, { reviews: 1 })
 }
 
+/** Records practice that is not tied to a word card (e.g. conjugation), so it counts for the streak. */
+export function recordPractice(state: AppState, today: string): AppState {
+  return withActivity(state, today, {})
+}
+
 /** Streak to display: it stays alive until the end of the day after the last activity. */
 export function currentStreak(state: AppState, today: string): number {
   const { lastActiveDate, current } = state.streak
